@@ -16,13 +16,38 @@ button.btn.btn-link {
 
 div.bg-dark.text-secondary.px-4.py-5.text-center{
     z-index: 1;
-    
     /* background-color: #2D2D2D; */
     /* inner */
 }
+
+div.text-secondary.px-4.py-5.text-center{
+    background-color: #2D2D2D;
+    position: relative;
+    z-index: -3;
+}
+
 div.py-5{
     background-color: #2D2D2D;
-    z-index: 1;
+    position: relative;
+    z-index: -4;
+}
+
+div#carouselSliding.carousel.slide{
+    position:absolute;
+    overflow:hidden;
+    object-fit: cover;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    opacity:0.05;
+    z-index:5;
+}
+
+img.d-block-mx-auto-mb-4{
+    transform: scale(2.5);
+    margin-top: 100px;
+    margin-bottom: -10px;
     
 }
 div.card-header{
@@ -49,11 +74,15 @@ div.who-we-are{
 
 }
 
+
+
+#carouselSliding{
+    height: max-content;
+    object-fit: cover;
+}
+
 img.d-block.w-100{
-    max-width: 100%;
-    max-height: 100%;
-    flex-shrink: 0;
-    z-index: -1;
+    background-size: auto;
 }
 p.lead.mb-4{
     font-family: 'Encode Sans';
@@ -82,8 +111,8 @@ div.px-4.pt-5.text-center{
     padding: 50px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: -70px;
-    z-index: 2;
+    margin-top: -40px;
+    z-index: 4;
 }
 
 div.second.px-4.pt-5.text-center{
@@ -100,12 +129,7 @@ div.second.px-4.pt-5.text-center{
     z-index: 2;
 }
 
-img.d-block-mx-auto-mb-4{
-    transform: scale(2.5);
-    margin-top: 100px;
-    margin-bottom: -10px;
-    
-}
+
 
 div.s-px-4.pt-5.text-center{
     z-index: 0;
