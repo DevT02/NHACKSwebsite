@@ -1,8 +1,14 @@
 .fs-5-mb-4{
     color: white;
     font-size: x-large;
-    position: relative
-
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: calc(20vw - 60px);
+    right: 0px;
+    left: 0px;
+    text-size-adjust:inherit;
+    overflow:hidden;
 }
 .bg-dark-text-secondary-px-4-py-5-text-center{
     color: orange;
@@ -49,9 +55,15 @@ div#carouselSliding.carousel.slide{
 }
 
 img.d-block-mx-auto-mb-4{
-    position: auto;
-    margin-top: auto;
-    margin-bottom: -10px;
+    position: absolute;
+    top: calc(1vw);
+    right: calc(4vw + 5.5px);
+    width: 88vw;  
+    height: calc(20vw - 20px);  
+    /* margin-left: calc(7vw - 5px);
+    margin-right: calc(20vw);    */
+     /* margin-top: calc(5vw - 10px);
+    margin-bottom: -10px; */
     
 }
 div.card-header{
@@ -127,7 +139,7 @@ div.first.px-4.pt-5.text-center{
     padding: 50px;
     margin-left: calc(20vw);
     margin-right: calc(20vw);
-    margin-top: calc(-20vw);
+    margin-top: calc(-15vw);
     z-index: 4;
 }
 
@@ -141,7 +153,7 @@ div.second.px-4.pt-5.text-center{
     padding: 50px;
     margin-left: calc(20vw);
     margin-right: calc(20vw);
-    margin-bottom: calc(-2vw);
+    margin-bottom: calc(-5vw + 10px);
     z-index: 2;
 }
 
