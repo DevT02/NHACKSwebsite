@@ -1,21 +1,17 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Hello, world!</title>
-  <link href='https://fonts.googleapis.com/css?family=Encode Sans' rel='stylesheet'>
-</head>
-
-
-<body>
-  <main>
-
-    <div class="py-5 text-center">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="../svgs/icon.svg">
+    <title>NHacks</title>
+  </head>
+  <body>
+    <main>
+      <div class="title-container text-center">
         <div id="carouselSliding" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-interval="3500">
@@ -32,58 +28,33 @@
             </div>
           </div>
         </div>
-        <img class="d-block-mx-auto-mb-4" src="../svgs/darkbannertransparent.svg" alt="" width="185" height="100">
-        <div class="col-lg-6 mx-auto">
-          <div style="height: 60px;"></div>
-          <p class="fs-5-mb-4">May 21st</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          </div>
-        </div>
-
-    </div>
-
-
-    <div class="first px-4 pt-5 text-center">
-      <h1 class="display-4 fw-bold">Who we are</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Five years ago, we started NHacks as Michigan’s first high school hackathon, with
-          sponsorships from Domino’s Pizza, FarmLogs, MPowered Entrepreneurship, Michigan Hackers, Hacker Fund, and many
-          more. As the first, we’ve decided to set an example for young hackers around the state. We had over 100
-          attendees and mentors and were featured on TV. 2 years ago, we added Microsoft, Soylent, Nexcess, and about 20
-          other companies as sponsors, and surpassed 175 registrants. Last year, as we approached unforeseen time
-          periods, we shifted to an online hackathon and reached over 20 countries, surpassing over 300 registrants for
-          a virtual hackathon. This year, NHacks is going to be the biggest and best it has ever been.</p>
-
+        <img class="mainlogo" src="../svgs/banner.svg">
       </div>
-
-    </div>
-    <div class="divider">
-    </div>    
-    <div class="px-4 pt-5 text-center">
-      <h1 class="display-4 fw-bold">Event Info</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">We're still in the process of planning this year's
+      <div class="who-we-are">
+        <h1 class="section-heading">Who we are</h1>
+        <p class="section-body">Six years ago, we started NHacks as Michigan’s first high school hackathon. As the first, 
+          we’ve decided to set an example for young hackers around the state. We had over 100 attendees and mentors and 
+          were featured on TV. 3 years ago, surpassed 175 registrants. Last year, as we approached unforeseen time
+          periods, we shifted to an online hackathon and reached over 20 countries, surpassing over 300 registrants for
+          a virtual hackathon. This year, NHacks is going to be the biggest and best it has ever been.
+        </p>
+      </div>
+      <div class="event-info">
+        <h1 class="section-heading">Event Info</h1>
+        <p class="section-body">We're still in the process of planning this year's
           event, but here's some info on you can expect
           based on last year's event!
         </p>
-        <p class="lead mb-4"> $5000+ worth of prizes </p>
-        <p class="lead mb-4">  Intermediate workshops on iOS, Android, Web Development, UX Design, and Augmented Reality</p>
-          
-        <p class="lead mb-4"> Panels with past organizers and women in STEM </p> 
-        <p class="lead mb-4"> Keynotes on learning CS as an international student, business ventures, and GirlGenius</p> 
+        <p class="section-body"> $5000+ worth of prizes </p>
+        <p class="section-body">  Intermediate workshops on iOS, Android, Web Development, UX Design, and Augmented Reality</p>
+        <p class="section-body"> Panels with past organizers and women in STEM </p>
+        <p class="section-body"> Keynotes on learning CS as an international student, business ventures, and GirlGenius</p>
       </div>
-
-    </div>
-
-    <div class="divider">
-    </div>    
-
-    <div class="second px-4 pt-5 text-center">
-      <h1 class="display-4 fw-bold">Questions?</h1>
-      <div class="col-lg-6 mx-auto">
+      <div class="questions">
+        <h1 class="section-heading">Questions?</h1>
         <a class="question" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false"
           aria-controls="collapseOne">
-          <p class="lead mb-4">What's a hackathon?</p>
+          <p class="section-body">What's a hackathon?</p>
         </a>
         <div class="collapse" id="collapseOne">
           <div class="card card-body">
@@ -94,7 +65,7 @@
         </div>
         <a class="question" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false"
           aria-controls="collapseTwo">
-          <p class="lead mb-4">I don't know how to program, can I still compete?</p>
+          <p class="section-body">I don't know how to program, can I still compete?</p>
         </a>
         <div class="collapse" id="collapseTwo">
           <div class="card card-body">
@@ -102,63 +73,47 @@
             your project!
           </div>
         </div>
-
         <a class="question" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false"
           aria-controls="collapseThree">
-          <p class="lead mb-4">Who's elegible?</p>
+          <p class="section-body">Who's elegible?</p>
         </a>
         <div class="collapse" id="collapseThree">
           <div class="card card-body">
             Any high school or middle school student is eligible to submit a project!
           </div>
         </div>
-
-
         <a class="question" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false"
           aria-controls="collapseFour">
-          <p class="lead mb-4">Where is it?</p>
+          <p class="section-body">Where is it?</p>
         </a>
         <div class="collapse" id="collapseFour">
           <div class="card card-body">
-            We are currently deciding a location! Check back for more information! </div>
+            We are currently deciding a location! Check back for more information! 
+          </div>
         </div>
-
-
         <a class="question" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false"
           aria-controls="collapseFive">
-          <p class="lead mb-4">I have more questions/want to help!</p>
+          <p class="section-body">I have more questions/want to help!</p>
         </a>
         <div class="collapse" id="collapseFive">
           <div class="card card-body">
             You can reach us by email at questions@nhacks2021.org
           </div>
         </div>
-
       </div>
-
-    </div>
-
-
-
-
-    <div class="s-px-4 pt-5 text-center">
-      <h1 class="display-4 fw-bold">Sponsors</h1>
-      <div class="col-lg-6 mx-auto">
-        <!-- insert sponsors here -->
+      <div class="sponsors text-center">
+        <h1 class="section-heading">Sponsors</h1>
+        <p class="section-body">Come back later!</p>
       </div>
-    </div>
-
-  </main>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-</body>
-
-
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
