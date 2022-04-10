@@ -5,6 +5,7 @@
     width: 100%;
     height: 100%;
     top: calc(20vw - 60px);
+    padding-bottom: 150vw;
     right: 0px;
     left: 0px;
     text-size-adjust:inherit;
@@ -56,10 +57,14 @@ div#carouselSliding.carousel.slide{
 
 img.d-block-mx-auto-mb-4{
     position: absolute;
-    top: calc(1vw);
+    top: calc(2vw- 20px);
     right: calc(4vw + 5.5px);
-    width: 88vw;  
-    height: calc(20vw - 20px);  
+    width: 88vw;
+    height: 40%;
+    bottom: calc(50% + 2vw);
+    overflow:hidden;
+    object-fit: fill;
+    /* height: calc(20vw - 20px);   */
     /* margin-left: calc(7vw - 5px);
     margin-right: calc(20vw);    */
      /* margin-top: calc(5vw - 10px);
@@ -153,7 +158,7 @@ div.second.px-4.pt-5.text-center{
     padding: 50px;
     margin-left: calc(20vw);
     margin-right: calc(20vw);
-    margin-bottom: calc(-5vw + 10px);
+    margin-bottom: -40px;
     z-index: 2;
 }
 
