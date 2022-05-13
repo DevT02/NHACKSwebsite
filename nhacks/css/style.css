@@ -19,6 +19,7 @@ button{
   text-align: center;
   text-decoration: none;
   font-size: 20px;
+  z-index: 10;
 }
 
 div.title-container {
